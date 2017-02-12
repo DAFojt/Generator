@@ -1,0 +1,18 @@
+[HDI Session]
+Target=H8/300H Monitor
+Version=2.10
+Frame=(0 1 -1 -1 -1 -1 160 128 1120 896 1 1)
+ObjectFile=C:\WORKSP~1\INFD_3\INFD_3\INFD_3.X
+Radix=16
+Reg0=00000000
+Reg1=00000000
+Reg2=00000000
+Reg3=00000000
+Reg4=00000000
+Reg5=00000000
+Reg6=00000000
+Reg7=00050000
+Reg8=04150C
+Reg9=-0------
+[Options]
+TabSize=4

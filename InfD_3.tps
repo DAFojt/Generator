@@ -1,0 +1,32 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.1" 
+[SESSIONS_]
+"Debug session" 
+"Release session" 
+[CONFIGURATIONS]
+"Debug" 
+"Release" 
+[CURRENT_CONFIGURATION]
+"Debug" 
+[CURRENT_SESSION]
+"Debug session" 
+[GENERAL_DATA_PROJECT]
+[GENERAL_DATA_CONFIGURATION_Debug]
+"PROJECT_FILES_MODIFIED_DATA_TAG" "TRUE" 
+[SESSIONS_Debug]
+"Debug session" 
+"Release session" 
+[GENERAL_DATA_CONFIGURATION_Release]
+"PROJECT_FILES_MODIFIED_DATA_TAG" "TRUE" 
+[SESSIONS_Release]
+"Debug session" 
+"Release session" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_Debug session]
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_Debug session]
+[GENERAL_DATA_SESSION_Release session]
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_Release session]
+[GENERAL_DATA_SESSION_Debug session]
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_Release session]
+[END]

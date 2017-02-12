@@ -1,0 +1,256 @@
+Archive member included because of file (symbol)
+
+c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\h8300-coff\lib\h8300h\liboptc.a(memcpy.o)
+                              C:\WorkSpace\InfD_3\InfD_3\Debug\main.o (memcpy)
+c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_mulsi3.o)
+                              C:\WorkSpace\InfD_3\InfD_3\Debug\inthandler.o (__mulsi3)
+c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_divsi3.o)
+                              C:\WorkSpace\InfD_3\InfD_3\Debug\inthandler.o (__divsi3)
+c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_si_to_sf.o)
+                              C:\WorkSpace\InfD_3\InfD_3\Debug\main.o (__floatsisf)
+c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_mul_sf.o)
+                              C:\WorkSpace\InfD_3\InfD_3\Debug\main.o (__mulsf3)
+c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_sf_to_si.o)
+                              C:\WorkSpace\InfD_3\InfD_3\Debug\main.o (__fixsfsi)
+c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_pack_sf.o)
+                              c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_si_to_sf.o) (__pack_f)
+c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_unpack_sf.o)
+                              c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_mul_sf.o) (__unpack_f)
+c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_thenan_sf.o)
+                              c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_mul_sf.o) (__thenan_sf)
+
+Allocating common symbols
+Common symbol       size              file
+
+odczyt_procentowy   0x2               C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+min                 0x2               C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+max                 0x2               C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+count               0x2               C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+odczyt              0x2               C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.vects          0x00040000       0xf4
+ *(.vects)
+ .vects         0x00040000       0xf4 C:\WorkSpace\InfD_3\InfD_3\Debug\vects.o
+                0x00040000                HardwareVectors
+
+.text           0x00040400     0x173e
+ *(.text)
+ .text          0x00040400       0x72 C:\WorkSpace\InfD_3\InfD_3\Debug\hwinit.o
+                0x00040400                hw_initialise
+ .text          0x00040472       0x30 C:\WorkSpace\InfD_3\InfD_3\Debug\inline.o
+                0x00040472                set_imask_ccr
+                0x00040494                no_operation
+ .text          0x000404a2      0x2fc C:\WorkSpace\InfD_3\InfD_3\Debug\inthandler.o
+                0x000406c6                INT_IMIB3
+                0x000406de                INT_IMIA4
+                0x00040792                INT_ADI
+                0x0004050e                INT_IRQ4
+                0x00040592                INT_IMIB2
+                0x00040586                INT_IMIA2
+                0x00040756                INT_TEI0
+                0x00040702                INT_DEND0A
+                0x00040526                INT_WOVI
+                0x000404ba                INT_TRAP2
+                0x000406d2                INT_OVI3
+                0x0004054a                INT_IMIB0
+                0x0004059e                INT_OVI2
+                0x0004051a                INT_IRQ5
+                0x00040732                INT_ERI0
+                0x000404ea                INT_IRQ1
+                0x00040562                INT_IMIA1
+                0x00040502                INT_IRQ3
+                0x00040786                INT_TEI1
+                0x0004074a                INT_TXI0
+                0x00040532                INT_CMI
+                0x00040726                INT_DEND1B
+                0x000404f6                INT_IRQ2
+                0x000404de                INT_IRQ0
+                0x000406ea                INT_IMIB4
+                0x0004071a                INT_DEND1A
+                0x00040556                INT_OVI0
+                0x000404c6                INT_TRAP3
+                0x0004076e                INT_RXI1
+                0x000404ae                INT_TRAP1
+                0x0004077a                INT_TXI1
+                0x0004073e                INT_RXI0
+                0x000405aa                INT_IMIA3
+                0x0004056e                INT_IMIB1
+                0x0004057a                INT_OVI1
+                0x00040762                INT_ERI1
+                0x000404d2                INT_TRAP4
+                0x0004070e                INT_DEND0B
+                0x000406f6                INT_OVI4
+                0x0004053e                INT_IMIA0
+                0x000404a2                INT_NMI
+ .text          0x0004079e      0x268 C:\WorkSpace\InfD_3\InfD_3\Debug\LCD.o
+                0x000409ce                KursorOff
+                0x00040930                putchar
+                0x000408e4                GotoXY
+                0x00040996                KursorOn
+                0x00040868                WriteSterLCD
+                0x000409ea                ClrScr
+                0x0004079e                IniLCD
+                0x000408a4                ReadSterLCD
+                0x00040846                GotowoscLCD
+ .text          0x00040a06      0xb06 C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+                0x00041004                EkranStartowy
+                0x0004105a                bin_bcd_d
+                0x00040e30                puts
+                0x00040d62                init_ITU2
+                0x00040b48                klawisze_funkcje
+                0x0004130a                bin_bcd
+                0x00040ed2                odczyt_AC
+                0x00040a06                odczytaj_klawiature
+                0x00040b1a                czestotliwosc_kl
+                0x00040fb0                init_ITU0
+                0x000414be                Ekran_startowy
+                0x00040c4e                startPWM
+                0x00040acc                czestotliwosc
+                0x00040c6a                stopPWM
+                0x00040e16                czestoliwosc_zadana
+                0x00040cae                init_ITU3
+                0x00040eba                init_AC
+                0x00040b8c                main
+ .text          0x0004150c       0x28 C:\WorkSpace\InfD_3\InfD_3\Debug\start.o
+                0x0004150c                start
+ .text          0x00041534       0x30 c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\h8300-coff\lib\h8300h\liboptc.a(memcpy.o)
+                0x00041534                memcpy
+ .text          0x00041564       0x18 c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_mulsi3.o)
+                0x00041564                __mulsi3
+ .text          0x0004157c       0x8a c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_divsi3.o)
+                0x000415aa                __umodsi3
+                0x000415b0                __divsi3
+                0x0004159e                __modsi3
+                0x000415c6                __udivsi3
+ .text          0x00041606       0x8e c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_si_to_sf.o)
+                0x00041606                __floatsisf
+ .text          0x00041694      0x220 c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_mul_sf.o)
+                0x00041694                __mulsf3
+ .text          0x000418b4       0x84 c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_sf_to_si.o)
+                0x000418b4                __fixsfsi
+ .text          0x00041938      0x146 c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_pack_sf.o)
+                0x00041938                __pack_f
+ .text          0x00041a7e       0xc0 c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_unpack_sf.o)
+                0x00041a7e                __unpack_f
+ *(.text.*)
+                0x00041b3e                etext = .
+
+.init
+ *(.init)
+
+.fini
+ *(.fini)
+
+.got
+ *(.got)
+ *(.got.plt)
+
+.rodata         0x00041b3e       0x16
+ *(.rodata)
+ .rodata        0x00041b3e        0xe C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+ .rodata        0x00041b4c        0x8 c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_thenan_sf.o)
+                0x00041b4c                __thenan_sf
+ *(.rodata.*)
+                0x00041b54                _erodata = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.jcr
+ *(.jcr)
+
+.tors           0x00041b54        0x0
+                0x00041b54                __CTOR_LIST__ = .
+                0x00041b54                ___ctors = .
+ *(.ctors)
+                0x00041b54                ___ctors_end = .
+                0x00041b54                __CTOR_END__ = .
+                0x00041b54                __DTOR_LIST__ = .
+                0x00041b54                ___dtors = .
+ *(.dtors)
+                0x00041b54                ___dtors_end = .
+                0x00041b54                __DTOR_END__ = .
+                0x00041b54                _mdata = .
+
+.stack          0x00050000        0x0
+                0x00050000                _stack = .
+
+.data           0x000fef10       0x2c
+                0x000fef10                _data = .
+ *(.data)
+ .data          0x000fef10        0x2 C:\WorkSpace\InfD_3\InfD_3\Debug\inthandler.o
+                0x000fef10                ink_dek
+ .data          0x000fef12       0x2a C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+                0x000fef1a                Fzadane
+                0x000fef12                napis_KENER
+                0x000fef25                Xstart
+                0x000fef18                kl_odczyt
+                0x000fef1e                Xstop
+                0x000fef31                f_s
+                0x000fef2d                d_s
+                0x000fef1c                wypelnienie
+ *(.data.*)
+                0x000fef3c                _edata = .
+
+.gcc_exc
+ *(.gcc_exc)
+
+.bss            0x000fef3c       0x12
+                0x000fef3c                _bss = .
+ *(.bss)
+ .bss           0x000fef3c        0x2 C:\WorkSpace\InfD_3\InfD_3\Debug\inthandler.o
+                0x000fef3c                wypelnienie_robocze
+ .bss           0x000fef3e        0x6 C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+                0x000fef40                counter
+                0x000fef42                gra
+                0x000fef3e                stan_pracy
+ *(COMMON)
+ COMMON         0x000fef44        0xa C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+                0x000fef44                odczyt_procentowy
+                0x000fef46                min
+                0x000fef48                max
+                0x000fef4a                count
+                0x000fef4c                odczyt
+                0x000fef4e                _ebss = .
+                0x000fef4e                _end = .
+LOAD C:\WorkSpace\InfD_3\InfD_3\Debug\hwinit.o
+LOAD C:\WorkSpace\InfD_3\InfD_3\Debug\inline.o
+LOAD C:\WorkSpace\InfD_3\InfD_3\Debug\inthandler.o
+LOAD C:\WorkSpace\InfD_3\InfD_3\Debug\LCD.o
+LOAD C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+LOAD C:\WorkSpace\InfD_3\InfD_3\Debug\start.o
+LOAD C:\WorkSpace\InfD_3\InfD_3\Debug\vects.o
+START GROUP
+LOAD c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\h8300-coff\lib\h8300h\liboptm.a
+LOAD c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\h8300-coff\lib\h8300h\liboptc.a
+LOAD c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a
+END GROUP
+OUTPUT(C:\WorkSpace\InfD_3\InfD_3\InfD_3.x coff-h8300)
+
+.comment        0x000fef4e      0x16c
+ .comment       0x000fef4e       0x1c C:\WorkSpace\InfD_3\InfD_3\Debug\hwinit.o
+ .comment       0x000fef6a       0x1c C:\WorkSpace\InfD_3\InfD_3\Debug\inline.o
+ .comment       0x000fef86       0x1c C:\WorkSpace\InfD_3\InfD_3\Debug\inthandler.o
+ .comment       0x000fefa2       0x1c C:\WorkSpace\InfD_3\InfD_3\Debug\LCD.o
+ .comment       0x000fefbe       0x1c C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+ .comment       0x000fefda       0x1c C:\WorkSpace\InfD_3\InfD_3\Debug\vects.o
+ .comment       0x000feff6       0x1c c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\h8300-coff\lib\h8300h\liboptc.a(memcpy.o)
+ .comment       0x000ff012       0x1c c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_si_to_sf.o)
+ .comment       0x000ff02e       0x1c c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_mul_sf.o)
+ .comment       0x000ff04a       0x1c c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_sf_to_si.o)
+ .comment       0x000ff066       0x1c c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_pack_sf.o)
+ .comment       0x000ff082       0x1c c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_unpack_sf.o)
+ .comment       0x000ff09e       0x1c c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a(_thenan_sf.o)
+
+.vectors        0x000ff0ba        0x0

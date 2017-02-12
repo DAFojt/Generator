@@ -1,0 +1,151 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+count               0x2               C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.vects          0x00040000       0xf4
+ *(.vects)
+ .vects         0x00040000       0xf4 C:\WorkSpace\InfD_3\InfD_3\Debug\vects.o
+                0x00040000                HardwareVectors
+
+.text           0x00040400      0x2b0
+ *(.text)
+ .text          0x00040400        0xc C:\WorkSpace\InfD_3\InfD_3\Debug\hwinit.o
+                0x00040400                hw_initialise
+ .text          0x0004040c      0x1ec C:\WorkSpace\InfD_3\InfD_3\Debug\inthandler.o
+                0x00040520                INT_IMIB3
+                0x00040538                INT_IMIA4
+                0x000405ec                INT_ADI
+                0x00040478                INT_IRQ4
+                0x000404fc                INT_IMIB2
+                0x000404f0                INT_IMIA2
+                0x000405b0                INT_TEI0
+                0x0004055c                INT_DEND0A
+                0x00040490                INT_WOVI
+                0x00040424                INT_TRAP2
+                0x0004052c                INT_OVI3
+                0x000404b4                INT_IMIB0
+                0x00040508                INT_OVI2
+                0x00040484                INT_IRQ5
+                0x0004058c                INT_ERI0
+                0x00040454                INT_IRQ1
+                0x000404cc                INT_IMIA1
+                0x0004046c                INT_IRQ3
+                0x000405e0                INT_TEI1
+                0x000405a4                INT_TXI0
+                0x0004049c                INT_CMI
+                0x00040580                INT_DEND1B
+                0x00040460                INT_IRQ2
+                0x00040448                INT_IRQ0
+                0x00040544                INT_IMIB4
+                0x00040574                INT_DEND1A
+                0x000404c0                INT_OVI0
+                0x00040430                INT_TRAP3
+                0x000405c8                INT_RXI1
+                0x00040418                INT_TRAP1
+                0x000405d4                INT_TXI1
+                0x00040598                INT_RXI0
+                0x00040514                INT_IMIA3
+                0x000404d8                INT_IMIB1
+                0x000404e4                INT_OVI1
+                0x000405bc                INT_ERI1
+                0x0004043c                INT_TRAP4
+                0x00040568                INT_DEND0B
+                0x00040550                INT_OVI4
+                0x000404a8                INT_IMIA0
+                0x0004040c                INT_NMI
+ .text          0x000405f8       0x90 C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+                0x000405f8                main
+ .text          0x00040688       0x28 C:\WorkSpace\InfD_3\InfD_3\Debug\start.o
+                0x00040688                start
+ *(.text.*)
+                0x000406b0                etext = .
+
+.init
+ *(.init)
+
+.fini
+ *(.fini)
+
+.got
+ *(.got)
+ *(.got.plt)
+
+.rodata         0x000406b0        0x0
+ *(.rodata)
+ *(.rodata.*)
+                0x000406b0                _erodata = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.jcr
+ *(.jcr)
+
+.tors           0x000406b0        0x0
+                0x000406b0                __CTOR_LIST__ = .
+                0x000406b0                ___ctors = .
+ *(.ctors)
+                0x000406b0                ___ctors_end = .
+                0x000406b0                __CTOR_END__ = .
+                0x000406b0                __DTOR_LIST__ = .
+                0x000406b0                ___dtors = .
+ *(.dtors)
+                0x000406b0                ___dtors_end = .
+                0x000406b0                __DTOR_END__ = .
+                0x000406b0                _mdata = .
+
+.stack          0x00050000        0x0
+                0x00050000                _stack = .
+
+.data           0x000fef10       0x18
+                0x000fef10                _data = .
+ *(.data)
+ .data          0x000fef10       0x18 C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+                0x000fef1c                string2
+                0x000fef10                string
+ *(.data.*)
+                0x000fef28                _edata = .
+
+.gcc_exc
+ *(.gcc_exc)
+
+.bss            0x000fef28        0x2
+                0x000fef28                _bss = .
+ *(.bss)
+ *(COMMON)
+ COMMON         0x000fef28        0x2 C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+                0x000fef28                count
+                0x000fef2a                _ebss = .
+                0x000fef2a                _end = .
+LOAD C:\WorkSpace\InfD_3\InfD_3\Debug\hwinit.o
+LOAD C:\WorkSpace\InfD_3\InfD_3\Debug\inthandler.o
+LOAD C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+LOAD C:\WorkSpace\InfD_3\InfD_3\Debug\start.o
+LOAD C:\WorkSpace\InfD_3\InfD_3\Debug\vects.o
+START GROUP
+LOAD c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\h8300-coff\lib\h8300h\liboptm.a
+LOAD c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\h8300-coff\lib\h8300h\liboptc.a
+LOAD c:\program files\hitachi\hew\tools\kpit cummins\gnuh8-coff\v0601\h8300-coff\lib\gcc\h8300-coff\4.0-GNUH8_v0601\h8300h\libgcc.a
+END GROUP
+OUTPUT(C:\WorkSpace\InfD_3\InfD_3\InfD_3.x coff-h8300)
+
+.comment        0x000fef2a       0x70
+ .comment       0x000fef2a       0x1c C:\WorkSpace\InfD_3\InfD_3\Debug\hwinit.o
+ .comment       0x000fef46       0x1c C:\WorkSpace\InfD_3\InfD_3\Debug\inthandler.o
+ .comment       0x000fef62       0x1c C:\WorkSpace\InfD_3\InfD_3\Debug\main.o
+ .comment       0x000fef7e       0x1c C:\WorkSpace\InfD_3\InfD_3\Debug\vects.o
+
+.vectors        0x000fef9a        0x0
